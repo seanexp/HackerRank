@@ -2,12 +2,35 @@
   <!-- Plotly.js -->
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./stats.css">
+  <meta charset="UTF-8">
 </head>
 
 <body>
 
-<canvas id="myCanvas" width="1000" height="1000">
-</canvas>
+<div id="wrapper">
+  <div id="ball"></div>
+</div>
+
+간격: 
+<input type="number" name="interval" min="1" max="500" value="200">
+milliseconds
+
+<br />
+
+시행:
+<input type="number" name="action" min="10" max="300" value="100">
+(10에서 300사이)
+
+<br />
+
+<button>run</button>
+
+<div id="result">
+  <div id="A"></div>
+  <div id="B"></div>
+  <div id="C"></div>
+</div>
 
 <div id="myDiv" style="width: 480px; height: 400px;">
   <!-- Plotly chart will be drawn inside this DIV -->
