@@ -1,4 +1,4 @@
-# ProjectEuler
-python code for project euler
+# HackerRank
+python code for HackerRank
 
-This repository stores the codes for Project Euler problems
+This repository stores the codes for HackerRank Algorithm problems
